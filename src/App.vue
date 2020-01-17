@@ -1,11 +1,11 @@
 <template>
   <div class="div">
-    <!-- <login></login>
-    <register></register>-->
-    <headerbuatankita></headerbuatankita>
+    <!-- <login></login> -->
+    <register></register>
+    <!-- <headerbuatankita></headerbuatankita>
     <search-bar></search-bar>
+    <gallery></gallery> -->
     <!-- <upload></upload> -->
-    <gallery></gallery>
     <footerbuatankita></footerbuatankita>
   </div>
 </template>
@@ -22,7 +22,9 @@ import footerbuatankita from "./components/footerbuatankita";
 
 export default {
   name: "App",
-  data: {},
+  data: {
+    
+  },
   components: {
     login,
     register,

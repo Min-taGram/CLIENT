@@ -21,6 +21,10 @@ a:hover {
    scroll-behavior: smooth;
 }
 
+.login-heading {
+   font-family: 'Playfair Display SC', sans-serif;
+   color: black;
+}
 
 .logo-head {
    font-family: 'Fondamento', cursive;
@@ -131,7 +135,7 @@ footer {
    padding: 5px;
     margin-top: 20px;
     color: white;
-    background: #000000;
+    background: transparent;
     text-align: center;
     font-family: 'Playfair Display SC', sans-serif;
    font-size: 15px;
