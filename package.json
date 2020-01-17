@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+    "axios": "^0.19.1",
+    "jquery": "^3.4.1",
+    "vue": "^2.6.11",
+    "vue-hot-reload-api": "^2.3.4"
+  },
+  "name": "Client",
+  "description": "ini client",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^3.1.1",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Min-taGram/CLIENT.git"
+  },
+  "keywords": [],
+  "author": "Jelang R. Kharisma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Min-taGram/CLIENT/issues"
+  },
+  "homepage": "https://github.com/Min-taGram/CLIENT#readme"
+}
