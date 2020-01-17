@@ -9,7 +9,7 @@
    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.css">
    <link rel="stylesheet" href="./assets/css/style.css">
-   <link rel="stylesheet" href="./assets/css/lightbox.min.css">
+   <!-- <link rel="stylesheet" href="./assets/css/lightbox.min.css"> -->
    <link href="https://fonts.googleapis.com/css?family=Gelasio|Patrick+Hand+SC|Playfair+Display+SC|Roboto&display=swap" rel="stylesheet">
    <link href="https://fonts.googleapis.com/css?family=Fondamento&display=swap" rel="stylesheet">
    <link href="https://fonts.googleapis.com/css?family=Public+Sans&display=swap" rel="stylesheet">
@@ -20,6 +20,97 @@
 <body>
    <div id="app">
 
+      <section id="gallery" class='py-5'>
+         <!-- jangan lupa tambah padding -->
+         <div class="container">
+            <div class="gallery-heading text-center mb-5">
+               <h1>MINTAGRAM</h1>
+               <h3>&hearts;</h3>
+               <!-- <h1><i class="fas fa-camera-retro"></i></h1> -->
+            </div>
+
+            <div class="row">
+               <div class="lightbox-content col-3 mb-4">
+                  <a href="./assets/img/1.jpg" data-lightbox='art' data-title="Tags: hahaha | hohoho | hehehe | hihi">
+                     <img src="./assets/img/1.jpg" class="img-fluid" alt="">
+                  </a>
+                  <p class="mt-2" style="color: white; font-family: 'Gelasio', cursive;">Tags : haha | hihi | huhu | hehe</p>
+               </div>
+               <div class="lightbox-content col-3">
+                  <a href="./assets/img/2.jpg" data-lightbox='art' data-title="Tags: hahaha | hohoho | hehehe | hihi">
+                     <img src="./assets/img/2.jpg" class="img-fluid" alt="">
+                  </a>
+                  <p class="mt-2" style="color: white; font-family: 'Gelasio', cursive;">Tags : haha | hihi | huhu | hehe</p>
+
+               </div>
+               <div class="lightbox-content col-3">
+                  <a href="./assets/img/3.jpg" data-lightbox='art' data-title="Tags: hahaha | hohoho | hehehe | hihi">
+                     <img src="./assets/img/3.jpg" class="img-fluid" alt="">
+                  </a>
+                  <p class="mt-2" style="color: white; font-family: 'Gelasio', cursive;">Tags : haha | hihi | huhu | hehe</p>
+
+               </div>
+               <div class="lightbox-content col-3">
+                  <a href="./assets/img/4.jpg" data-lightbox='art' data-title="Tags: hahaha | hohoho | hehehe | hihi">
+                     <img src="./assets/img/4.jpg" class="img-fluid" alt="">
+                  </a>
+                  <p class="mt-2" style="color: white; font-family: 'Gelasio', cursive;">Tags : haha | hihi | huhu | hehe</p>
+
+               </div>
+               <div class="lightbox-content col-3">
+                  <a href="./assets/img/5.jpg" data-lightbox='art' data-title="Tags: hahaha | hohoho | hehehe | hihi">
+                     <img src="./assets/img/5.jpg" class="img-fluid" alt="">
+                  </a>
+                  <p class="mt-2" style="color: white; font-family: 'Gelasio', cursive;">Tags : haha | hihi | huhu | hehe</p>
+
+               </div>
+               <div class="lightbox-content col-3">
+                  <a href="./assets/img/6.jpg" data-lightbox='art' data-title="Tags: hahaha | hohoho | hehehe | hihi">
+                     <img src="./assets/img/6.jpg" class="img-fluid" alt="">
+                  </a>
+                  <p class="mt-2" style="color: white; font-family: 'Gelasio', cursive;">Tags : haha | hihi | huhu | hehe</p>
+
+               </div>
+               <div class="lightbox-content col-3">
+                  <a href="./assets/img/7.jpg" data-lightbox='art' data-title="Tags: hahaha | hohoho | hehehe | hihi">
+                     <img src="./assets/img/7.jpg" class="img-fluid" alt="">
+                  </a>
+                  <p class="mt-2" style="color: white; font-family: 'Gelasio', cursive;">Tags : haha | hihi | huhu | hehe</p>
+
+               </div>
+               <div class="lightbox-content col-3">
+                  <a href="./assets/img/8.jpg" data-lightbox='art' data-title="Tags: hahaha | hohoho | hehehe | hihi">
+                     <img src="./assets/img/8.jpg" class="img-fluid" alt="">
+                  </a>
+                  <p class="mt-2" style="color: white; font-family: 'Gelasio', cursive;">Tags : haha | hihi | huhu | hehe</p>
+
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <section id="upload-image">
+         <div class="container">
+            <div class="row justify-content-center">
+               <div class="card text-white bg-dark mb-3 text-center pb-3" style="max-width: 40%;"">
+               <div class=" card-header"><span style="font-family: 'Playfair Display SC', serif">Upload Image</span></div>
+               <div class="card-body">
+                  <h5 class="card-title"></h5>
+                  <input type="text" class="form-control" placeholder="Input your tags here...">
+                  <div class="custom-file">
+                     <input type="file" class="custom-file-input" id="customFile">
+                     <label class="custom-file-label my-3" for="customFile">Choose pic</label>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <section id="contact">
+         <footer>
+            <p class="my-2">All images remain property of their original owners &copy; Mintagram.xyz 2020</p>
+         </footer>
+      </section>
    </div>
 
 
@@ -27,8 +118,7 @@
    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-   <script src="./assets/js/lightbox-plus-jquery.min.js"></script>
-   <script src="./src/main.js"></script>
+   <!-- <script src="./assets/js/lightbox-plus-jquery.min.js"></script> -->
 </body>
 
 </html>
