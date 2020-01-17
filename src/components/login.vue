@@ -7,8 +7,7 @@
                      <!-- bawah ini login -->
                      <div class="login">
                         <div class="logo text-center">
-                           <h5 class="logo-head">change</h5>
-                           <h3 class="logo-sub">For the better</h3>
+                           <h3 class="logo-sub">Peace, love, and gawl</h3>
                         </div>
                         <form class="form-signin">
                            <div class="form-label-group mb-4">

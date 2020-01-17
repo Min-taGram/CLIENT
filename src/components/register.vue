@@ -5,7 +5,7 @@
                <div class="card card-signin my-5">
                   <div class="card-body">
                      <div class="register" >
-                        <h5 class="card-title text-center">Register</h5>
+                        <h5 class="card-title text-center" style="font-family: 'Gelasio', cursive; font-size: 30px">Register</h5>
                         <form class="form-signin">
                            <div class="form-label-group my-4">
                               <input type="text" id="inputName" class="form-control"
