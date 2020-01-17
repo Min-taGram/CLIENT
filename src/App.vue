@@ -4,8 +4,8 @@
     <register></register> -->
     <header></header>
     <search-bar></search-bar>
-    <!-- <upload></upload> -->
     <gallery></gallery>
+    <!-- <upload></upload> -->
     <footer></footer>
   </div>
 </template>
