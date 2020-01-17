@@ -18,14 +18,14 @@
    <title>Login-bos</title>
 </head>
 <body>
-   <div id="landing-page" v-if='someoneLogin.condition === false'>
+   <div id="landing-page" v-if=''>
       <div class="container">
          <div class="row">
             <div class="col-sm-9 col-md-7 col-lg-5 mx-auto my-auto">
                <div class="card card-signin my-5">
                   <div class="card-body">
                      <!-- bawah ini login -->
-                     <div class="login" v-if="userRegister === false">
+                     <div class="login" v-if="">
                         <div class="logo text-center">
                            <h5 class="logo-head">change</h5>
                            <h3 class="logo-sub">For the better</h3>
@@ -33,47 +33,46 @@
                         <form class="form-signin">
                            <div class="form-label-group mb-4">
                               <input type="email" id="inputEmail" class="form-control" placeholder="Email address"
-                                 required autofocus v-model="userLogin.email">
+                                 required autofocus v-model="">
                               <!-- <label for="inputEmail">Email address</label> -->
                            </div>
 
                            <div class="form-label-group mb-4">
                               <input type="password" id="inputPassword" class="form-control" placeholder="Password"
-                                 required v-model="userLogin.password">
+                                 required v-model="">
                               <!-- <label for="inputPassword">Password</label> -->
                            </div>
                            <button type="button" class="btn btn-dark px-5 btn-block"
-                              style="font-family: 'Playfair Display SC', serif;" @click="login">Sign in</button>
+                              style="font-family: 'Playfair Display SC', serif;" @click="">Sign in</button>
                            <hr class="my-4">
                            <!-- <button class="btn btn-lg btn-danger btn-block" type="submit"><i
                                  class="fab fa-google mr-2"></i>
                               Sign in with Google</button> -->
-                           <p class="text-center mt-4" @click="toggleLoginRegister(true)" style="cursor: pointer;">
+                           <p class="text-center mt-4" @click="" style="cursor: pointer;">
                               Don't have an account yet? Click here to Register</p>
                         </form>
                      </div>
                      <!-- login sampai sini -->
                      <!-- dibawah ini untuk register -->
-                     <!-- still trouble here -->
-                     <div class="register" v-if="userRegister === true">
+                     <div class="register" v-if="">
                         <h5 class="card-title text-center">Register</h5>
                         <form class="form-signin">
                            <div class="form-label-group my-4">
-                              <input type="text" id="inputName" class="form-control" v-model="userRegisterData.name"
+                              <input type="text" id="inputName" class="form-control" v-model=""
                                  placeholder="Your name" required autofocus>
                            </div>
                            <div class="form-label-group my-4">
                               <input type="email" id="inputEmail" class="form-control"
-                                 v-model="userRegisterData.email" placeholder="Email address" required autofocus>
+                                  placeholder="Email address" required autofocus v-model="">
                            </div>
                            <div class="form-label-group my-4">
                               <input type="password" id="inputPassword" class="form-control"
-                                 v-model="userRegisterData.password" placeholder="Password" required>
+                                  placeholder="Password" required v-model="">
                            </div>
 
-                           <button type="button" class="btn btn-dark btn-block" @click="registerUser"
+                           <button type="button" class="btn btn-dark btn-block"
                               style="font-family: 'Playfair Display SC', serif;">Sign Up</button>
-                           <p class="text-center" @click="toggleLoginRegister(false)" style="cursor : pointer">Back
+                           <p class="text-center mt-4" style="cursor : pointer">Back
                               to sign in</p>
                         </form>
                      </div>
