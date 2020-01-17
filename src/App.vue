@@ -1,11 +1,11 @@
 <template>
   <div class="div">
-    <!-- <login></login> -->
+    <login></login>
     <register></register>
-    <!-- <headerbuatankita></headerbuatankita>
+    <headerbuatankita></headerbuatankita>
     <search-bar></search-bar>
-    <gallery></gallery> -->
-    <!-- <upload></upload> -->
+    <gallery></gallery>
+    <upload></upload>
     <footerbuatankita></footerbuatankita>
   </div>
 </template>

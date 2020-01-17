@@ -1,5 +1,6 @@
 body {
    background-image: url('../img/bg.jpg');
+   background-attachment: fixed;
 }
 
 html {
@@ -135,7 +136,7 @@ footer {
    padding: 5px;
     margin-top: 20px;
     color: white;
-    background: transparent;
+    background: black;
     text-align: center;
     font-family: 'Playfair Display SC', sans-serif;
    font-size: 15px;
