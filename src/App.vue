@@ -1,12 +1,12 @@
 <template>
   <div class="div">
     <!-- <login></login>
-    <register></register> -->
-    <header></header>
+    <register></register>-->
+    <headerbuatankita></headerbuatankita>
     <search-bar></search-bar>
     <!-- <upload></upload> -->
     <gallery></gallery>
-    <footer></footer>
+    <footerbuatankita></footerbuatankita>
   </div>
 </template>
 
@@ -14,22 +14,23 @@
 <script>
 import login from "./components/login";
 import register from "./components/register";
-import header from "./components/header";
+import headerbuatankita from "./components/headerbuatankita";
 import searchBar from "./components/search-bar";
 import gallery from "./components/gallery";
 import upload from "./components/upload";
-import footer from "./components/footer"
+import footerbuatankita from "./components/footerbuatankita";
 
 export default {
   name: "App",
+  data: {},
   components: {
     login,
     register,
-    header,
+    headerbuatankita,
     searchBar,
     gallery,
     upload,
-    footer
+    footerbuatankita
   }
 };
 </script>
